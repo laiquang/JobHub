@@ -1,0 +1,55 @@
+# JobHub
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+.next/
+dist/
+build/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Logs
+*.log
+typescript-errors.txt
+
+# Uploads
+uploads/
+
+# Database backups
+*.sql
+*.dump
+*.bak
+
+# IDE
+.cursor/
+.vscode/
+.idea/
+
+# Documents
+tai-lieu/
+thesis/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Private keys
+*.pem
+*.key
+
+# Testing
+coverage/
